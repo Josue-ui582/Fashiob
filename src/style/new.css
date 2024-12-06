@@ -1,0 +1,11 @@
+.relative > button {
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+.relative > input{
+    width: 300px;
+    outline: none;
+}
