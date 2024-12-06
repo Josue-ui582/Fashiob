@@ -3,7 +3,7 @@ import '../style/payday.css';
 
 const PaidDay = () => {
     return (
-        <section className="mt-8 sm:mx-0 overflow-hidden">
+        <section className="mt-8 sm:mx-0 overflow-hidden mx-0">
             <div className="flex gap-4 flex-col items-center bg-paydaybackground px-6 py-8 mx-auto w-[110%] max-w-screen-xl lg:flex-row lg:justify-center lg:space-x-8">
                 
                 <div className="flex justify-center mb-6 lg:mb-0">

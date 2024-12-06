@@ -3,7 +3,7 @@ import { FaFacebookF, FaSquareInstagram, FaTwitter, FaLinkedinIn } from "react-i
 
 const Footer = () => {
     return (
-        <footer className="bg-black py-8">
+        <footer className="bg-black py-8 mx-0">
             <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
                 
                 <div>
@@ -18,6 +18,8 @@ const Footer = () => {
                         <FaLinkedinIn className="p-2 text-2xl cursor-pointer bg-lightOrange hover:bg-white hover:text-black rounded-full transition-all duration-300" />
                     </div>
                 </div>
+
+                <div className="h-[0.5px] bg-gray-500 mt-8 mb-8"></div>
 
                 <div>
                     <ul className="text-gray-500 space-y-2">
@@ -47,7 +49,8 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <p className="text-center font-poppins text-white">&copy; {new Date().getFullYear()}Fashion. Tous droits réservés.</p>
+            <div className="h-[0.5px] bg-gray-500 mt-8 mb-8"></div>
+            <p className="text-center font-poppins text-white">&copy; {new Date().getFullYear()} Fashion. Tous droits réservés.</p>
         </footer>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 
 const DownloadSection = () => {
     return (
-        <section className="px-4 -mt-24">
+        <section className="px-4 -mt-24 mx-0">
             <div className="flex flex-col-reverse items-center gap-y-8 lg:flex-row lg:justify-center lg:items-center lg:gap-x-36">
                 <div className="text-center lg:text-left">
                     <p className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4">

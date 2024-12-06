@@ -3,7 +3,7 @@ import '../style/new.css';
 
 const NewsLetter = () => {
     return (
-        <section className="bg-lightOrange py-12 flex justify-center items-center">
+        <section className="bg-lightOrange py-12 flex justify-center items-center mx-0">
             <div className="flex flex-col items-center gap-6 max-w-4xl px-4">
                 
                 <h1 className="uppercase text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-white text-center">
